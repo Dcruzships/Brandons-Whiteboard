@@ -1,0 +1,27 @@
+html, body
+{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.zoom
+{
+  position: absolute;
+  transition: transform .2s;
+}
+
+#home:hover
+{
+  transform: scale(1.5);
+}
+
+#sketch
+{
+  background: #ffffff;
+  position:absolute;
+  z-index: 0;
+  left: 10px;
+  top: 10px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+}
