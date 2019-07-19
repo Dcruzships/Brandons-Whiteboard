@@ -7,13 +7,52 @@ html, body
 
 .zoom
 {
+  z-index: 1;
   position: absolute;
   transition: transform .2s;
+  left: 20px;
+  top: 20px;
 }
 
 #home:hover
 {
   transform: scale(1.5);
+}
+
+.controls
+{
+  z-index: 1;
+  position: absolute;
+}
+
+#clear
+{
+  left: 95vw;
+  top: 20px;
+}
+
+#undo
+{
+  left: 94.8vw;
+  top: 74vh;
+}
+
+#plus
+{
+  left: 95vw;
+  top: 83vh;
+}
+
+#minus
+{
+  left: 95vw;
+  top: 91vh;
+}
+
+#question
+{
+  left: 30px;
+  top: 90vh;
 }
 
 #sketch
